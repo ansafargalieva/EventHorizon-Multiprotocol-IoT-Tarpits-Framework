@@ -15,17 +15,4 @@ To start all components, simply run:
 docker compose up
 ```
 
-## System overview
-+------------------+
-|   .env Config    |
-+------------------+
-         │
-         ▼
-+----------------------+
-|  docker-compose.yml  |
-+----------------------+
-   │        │        │
-   ▼        ▼        ▼
- Telnet   MQTT   CoAP  ...
-   │        │        │
-   └──→ Go Collector → Prometheus → Grafana
+
